@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "943810896779",
+    "firebase_url": "https://ilhasairlines-default-rtdb.firebaseio.com",
+    "project_id": "ilhasairlines",
+    "storage_bucket": "ilhasairlines.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943810896779:android:465a14b572bb1522e2858e",
+        "android_client_info": {
+          "package_name": "com.example.islandairlines"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcfQktuuBW0nHaujqbaUbiddkrviwEbkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943810896779:android:a6c8eba30cc11aede2858e",
+        "android_client_info": {
+          "package_name": "com.example.operadoradevoos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcfQktuuBW0nHaujqbaUbiddkrviwEbkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:943810896779:android:43f583e91137c76de2858e",
+        "android_client_info": {
+          "package_name": "com.example.yesorno"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcfQktuuBW0nHaujqbaUbiddkrviwEbkU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
