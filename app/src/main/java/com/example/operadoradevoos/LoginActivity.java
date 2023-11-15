@@ -25,8 +25,8 @@ import com.google.android.gms.tasks.Task;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText emailTextView, passwordTextView;
-    private Button BtnLogin, BtnRegistar;
-    private ProgressBar progressbar;
+    private Button BtnLogin;
+    private TextView TextViewRegistar;
 
     private FirebaseAuth mAuth;
 
@@ -42,8 +42,7 @@ public class LoginActivity extends AppCompatActivity {
         emailTextView = findViewById(R.id.email);
         passwordTextView = findViewById(R.id.password);
         BtnLogin = findViewById(R.id.login);
-        BtnRegistar = findViewById(R.id.registar);
-        progressbar = findViewById(R.id.progressBar);
+        TextViewRegistar = findViewById(R.id.registar);
 
         // Set on Click Listener on Sign-in button
         BtnLogin.setOnClickListener(new View.OnClickListener() {
@@ -54,7 +53,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
-        BtnRegistar.setOnClickListener(new View.OnClickListener() {
+        TextViewRegistar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(LoginActivity.this, RegistrationActivity.class);
@@ -65,9 +64,6 @@ public class LoginActivity extends AppCompatActivity {
 
     private void loginUserAccount()
     {
-
-        // show the visibility of progress bar to show loading
-        progressbar.setVisibility(View.VISIBLE);
 
         // Take the value of two edit texts in Strings
         String email, password;
@@ -105,9 +101,6 @@ public class LoginActivity extends AppCompatActivity {
                                                     Toast.LENGTH_LONG)
                                             .show();
 
-                                    // hide the progress bar
-                                    progressbar.setVisibility(View.GONE);
-
                                     // if sign-in is successful
                                     // intent to home activity
                                     Intent intent
@@ -123,9 +116,6 @@ public class LoginActivity extends AppCompatActivity {
                                                     "Login failed!!",
                                                     Toast.LENGTH_LONG)
                                             .show();
-
-                                    // hide the progress bar
-                                    progressbar.setVisibility(View.GONE);
                                 }
                             }
                         });
