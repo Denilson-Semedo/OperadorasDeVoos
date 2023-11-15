@@ -1,0 +1,52 @@
+<!-- res/layout/item_flight.xml -->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewChegada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chegada:"/>
+
+    <TextView
+        android:id="@+id/textViewData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data:"/>
+
+    <TextView
+        android:id="@+id/textViewLugares"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugares:"/>
+
+    <TextView
+        android:id="@+id/textViewOperadora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operadora:"/>
+
+    <TextView
+        android:id="@+id/textViewPartida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Partida:"/>
+
+    <TextView
+        android:id="@+id/textViewPreco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Preço:"/>
+
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID:"/>
+
+</LinearLayout>
