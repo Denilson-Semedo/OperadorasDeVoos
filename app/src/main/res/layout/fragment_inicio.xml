@@ -57,14 +57,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -82,11 +85,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -112,14 +117,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -137,11 +145,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -166,14 +176,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -191,11 +204,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -220,14 +235,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -245,11 +263,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -274,14 +294,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -299,11 +322,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -328,14 +353,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -353,11 +381,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -382,14 +412,17 @@
                     android:layout_marginLeft="10dp">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="De: Praia"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Para: Açores"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="09/11/2021 - 11:30"/>
@@ -407,11 +440,13 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="32.000$00"
                         android:textSize="10pt"/>
                     <TextView
+                        android:textColor="@color/black"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="6 lugares restantes"/>
@@ -434,6 +469,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tela Inicio" />
