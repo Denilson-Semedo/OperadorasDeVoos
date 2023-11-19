@@ -6,10 +6,95 @@
     android:background="@drawable/img"
     tools:context=".Perfil">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ilhas Air Lines"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perfil"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:textStyle="normal"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@color/white">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/baseline_account_circle_24"/>
+
+            <EditText
+                android:id="@+id/identificacao"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:hint="CNI/BI/Passaporte"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/nome"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:hint="Nome (primeiro e último)"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/dataNasc"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:hint="DataNascimento"
+                android:layout_marginBottom="10dp"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:textColor="@color/black"
+                android:hint="Email"
+                android:layout_marginBottom="10dp"/>
+
+            <!-- Button for Login with text "Login" -->
+            <Button
+                android:id="@+id/btnEditar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#34A838"
+                android:text="Editar" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 </FrameLayout>
