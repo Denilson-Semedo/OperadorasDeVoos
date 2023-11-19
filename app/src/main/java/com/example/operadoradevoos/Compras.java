@@ -7,6 +7,9 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -23,6 +26,14 @@ public class Compras extends Fragment {
     // TODO: Rename and change types of parameters
     private String mParam1;
     private String mParam2;
+
+    private Button btnConfirmar;
+    private Button btnCancelar;
+    private Button btnAdd;
+    private Button btnSub;
+    private TextView valorBase;
+    private TextView valorTotal;
+    private EditText bags;
 
     public Compras() {
         // Required empty public constructor
@@ -59,6 +70,49 @@ public class Compras extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_compras, container, false);
+        View view = inflater.inflate(R.layout.fragment_compras, container, false);
+
+        btnConfirmar = (Button) view.findViewById(R.id.btnConfirmar);
+        btnCancelar = (Button) view.findViewById(R.id.btnCancelar);
+        btnAdd = (Button) view.findViewById(R.id.btnAdd);
+        btnSub = (Button) view.findViewById(R.id.btnSub);
+        valorBase = (TextView) view.findViewById(R.id.valorBase);
+        valorTotal = (TextView) view.findViewById(R.id.valorFinal);
+        bags = (EditText) view.findViewById(R.id.bags);
+
+        bags.setText("0");
+
+        btnAdd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // increase the value of the bags
+                int valorBags = Integer.parseInt(bags.getText().toString());
+                bags.setText(String.valueOf( valorBags += 1));
+
+                int valor = Integer.parseInt(valorTotal.getText().toString());
+                valorTotal.setText(String.valueOf( valor += 8000));
+            }
+        });
+
+        btnSub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                // Subtract the value of the bags
+                int valorBags = Integer.parseInt(bags.getText().toString());
+                if (valorBags > 0 ) {
+                    bags.setText(String.valueOf( valorBags -= 1));
+                }
+
+                int valor = Integer.parseInt(valorTotal.getText().toString());
+                if (valor > 0 ) {
+                    valorTotal.setText(String.valueOf( valor -= 8000));
+                }
+            }
+        });
+
+
+        return view;
     }
 }
